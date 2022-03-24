@@ -1,0 +1,57 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    list-style-position: inside;
+    background-color: #ffcccc;
+    line-height: 1.8;
+    }
+
+body {
+        
+        margin: 20px 150px;
+        background-color: #ffe6e6;
+        padding: 20px;
+        border: 5px solid darkblue;
+      }
+
+h1, h2 {
+        font-weight: bold;
+        color:darkblue;
+    }
+
+#top {
+    margin: 0;
+    padding: 20px 0;
+    text-decoration: underline;
+}
+
+li, a {
+        font-size: 20px;
+    }
+
+ul{
+    list-style-type: square;
+}
+
+div {
+    background-color: #fdf7f7;
+    margin: 20px 70px 20px 70px ;
+    padding: 5px 0px;
+    
+    
+}
+
+#bottom {
+    padding: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
